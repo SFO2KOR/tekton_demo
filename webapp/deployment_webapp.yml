@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/surajmohanm/webapp-tekton:latest
+        image: docker.io/sfo2kor/webapp-tekton:latest
         ports:
         - containerPort: 80
