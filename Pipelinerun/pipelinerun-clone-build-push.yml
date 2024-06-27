@@ -19,6 +19,6 @@ spec:
             storage: 1Gi
   params:
   - name: repo-url
-    value: https://github.com/surajmohan-m/webapp.git
+    value: https://github.com/SFO2KOR/webapp.git
   - name: image-reference
-    value: surajmohanm/webapp-tekton
+    value: SFO2KOR/webapp-tekton
