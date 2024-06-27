@@ -21,4 +21,4 @@ spec:
   - name: repo-url
     value: https://github.com/SFO2KOR/webapp.git
   - name: image-reference
-    value: SFO2KOR/webapp-tekton
+    value: sfo2kor/webapp-tekton
