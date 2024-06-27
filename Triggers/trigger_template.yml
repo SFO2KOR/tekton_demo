@@ -36,4 +36,4 @@ spec:
         - name: repo-url
           value: "$(tt.params.repo-url)"
         - name: image-reference
-          value: SFO2KOR/webapp-tekton
+          value: sfo2kor/webapp-tekton
