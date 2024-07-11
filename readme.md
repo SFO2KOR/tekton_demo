@@ -6,14 +6,14 @@
 
 ### Webapp Git Repo
 
-The Webapp git repo contains a simple ***html file*** and a ***Dockerfile*** to copy the html file to the nginx image. It is available [here](https://github.com/surajmohan-m/webapp.git)
+The Webapp git repo contains a simple ***html file*** and a ***Dockerfile*** to copy the html file to the nginx image. It is available [here](https://github.com/SFO2KOR/webapp.git)
 
 ### Webapp Deployment and Service
 
 * **Deployment**
 
   * Name : webapp-deployment
-  * image : [webapp-tekton](https://hub.docker.com/repository/docker/surajmohanm/webapp-tekton/generalhttps:/)
+  * image : [webapp-tekton](https://hub.docker.com/repository/docker/sfo2kor/webapp-tekton/tags)
   * Port : 80
 * Service
 
@@ -21,7 +21,7 @@ The Webapp git repo contains a simple ***html file*** and a ***Dockerfile*** to 
 
 ## Tekton - Build and push Pipeline
 
-![](assets/20240627_002021_tekton_demo_pipeline_structure_3.png)
+![](assets/tekton_demo_pipeline_structure_4.png)
 
 
 * **Pipelinerun** - clone_build_push-*
